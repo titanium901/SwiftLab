@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FruitVictorina" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pineapples-1606852_1280" translatesAutoresizingMaskIntoConstraints="NO" id="uoz-fb-Rgb">
+                                <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Euq-NX-xDN">
+                                <rect key="frame" x="0.0" y="8" width="844" height="37"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="34"/>
+                                <color key="textColor" red="1" green="0.64935293670000005" blue="0.047475555010000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="STJ-of-31U">
+                                <rect key="frame" x="38" y="126" width="320" height="162"/>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1jv-CX-Glq">
+                                <rect key="frame" x="381.5" y="188" width="153" height="59"/>
+                                <color key="backgroundColor" red="0.9996611475944519" green="0.65027040243148804" blue="0.045990481972694397" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="26"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="15" maxX="40" maxY="15"/>
+                                <state key="normal" title="Match">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="matchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4hw-1G-1Nh"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banan" translatesAutoresizingMaskIntoConstraints="NO" id="M70-aK-Sto">
+                                <rect key="frame" x="582" y="110" width="250" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="SJS-QX-RQD"/>
+                                    <constraint firstAttribute="width" constant="250" id="SNt-Hn-nUe"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVo-aU-IeZ">
+                                <rect key="frame" x="52" y="2" width="112" height="49"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="34"/>
+                                <state key="normal" title="Restart">
+                                    <color key="titleColor" red="1" green="0.64935293665728189" blue="0.047475555005014103" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="restartButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2OO-9e-vwY"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gej-FN-eCL">
+                                <rect key="frame" x="707" y="8" width="85" height="37"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="34"/>
+                                <color key="textColor" red="1" green="0.64935293670000005" blue="0.047475555010000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Gej-FN-eCL" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="IVo-aU-IeZ" secondAttribute="trailing" constant="8" symbolic="YES" id="7qk-yf-BvL"/>
+                            <constraint firstAttribute="trailing" secondItem="uoz-fb-Rgb" secondAttribute="trailing" id="A5K-Wx-O9b"/>
+                            <constraint firstItem="uoz-fb-Rgb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Gvg-M3-Zfu"/>
+                            <constraint firstAttribute="bottom" secondItem="uoz-fb-Rgb" secondAttribute="bottom" id="HIG-yf-PqJ"/>
+                            <constraint firstItem="uoz-fb-Rgb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="KPG-Sa-80S"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Euq-NX-xDN" secondAttribute="trailing" constant="8" id="Lez-zO-qjg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M70-aK-Sto" secondAttribute="trailing" constant="82" id="NWK-1e-vwa">
+                                <variation key="widthClass=regular" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="IVo-aU-IeZ" secondAttribute="trailing" symbolic="YES" id="U4p-nz-7zc"/>
+                            <constraint firstItem="M70-aK-Sto" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VKq-VG-JCX"/>
+                            <constraint firstItem="Gej-FN-eCL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="aSl-Jp-R5e"/>
+                            <constraint firstItem="1jv-CX-Glq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dbN-Z8-WrI">
+                                <variation key="widthClass=regular" constant="10"/>
+                            </constraint>
+                            <constraint firstItem="STJ-of-31U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fqG-Xi-FJF">
+                                <variation key="widthClass=regular" constant="-250"/>
+                            </constraint>
+                            <constraint firstItem="IVo-aU-IeZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="2" id="fy9-hT-Ov3"/>
+                            <constraint firstItem="STJ-of-31U" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gQz-pU-FAq"/>
+                            <constraint firstItem="M70-aK-Sto" firstAttribute="top" secondItem="Euq-NX-xDN" secondAttribute="bottom" constant="65" id="hJ3-Jz-QB7"/>
+                            <constraint firstItem="M70-aK-Sto" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="id2-Ko-1ms">
+                                <variation key="widthClass=regular" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="1jv-CX-Glq" firstAttribute="top" secondItem="STJ-of-31U" secondAttribute="bottom" constant="20" id="kNL-ps-Pzv">
+                                <variation key="widthClass=regular" constant="-100"/>
+                            </constraint>
+                            <constraint firstItem="Euq-NX-xDN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="oEW-eQ-A5c"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gej-FN-eCL" secondAttribute="trailing" constant="60" id="ouo-Mh-wdz"/>
+                            <constraint firstItem="Euq-NX-xDN" firstAttribute="leading" secondItem="uoz-fb-Rgb" secondAttribute="leading" id="z89-KG-KOm"/>
+                            <constraint firstItem="IVo-aU-IeZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="zss-z5-9eg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="VKq-VG-JCX"/>
+                                <exclude reference="id2-Ko-1ms"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="VKq-VG-JCX"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=regular">
+                            <mask key="constraints">
+                                <exclude reference="id2-Ko-1ms"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="M70-aK-Sto" id="hUv-53-TA6"/>
+                        <outlet property="matchButton" destination="1jv-CX-Glq" id="CAk-fe-ks3"/>
+                        <outlet property="pickerFruits" destination="STJ-of-31U" id="7K4-s7-wrY"/>
+                        <outlet property="scoreLabel" destination="Euq-NX-xDN" id="qnw-E5-Gfj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.23188405797103" y="125.89285714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="banan" width="1737" height="1175"/>
+        <image name="pineapples-1606852_1280" width="1280" height="853"/>
+    </resources>
+</document>
