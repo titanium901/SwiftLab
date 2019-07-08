@@ -1,5 +1,5 @@
 # SwiftLab
-SwiftLab online school
+SwiftLab online school https://swiftlab.ru/ios-developer/
 
 # Project 1
 
