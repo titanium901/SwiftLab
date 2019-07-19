@@ -18,3 +18,9 @@ SwiftLab online school https://swiftlab.ru/ios-developer/
 # ImageScroller 
 
 ![scr2](https://user-images.githubusercontent.com/30910230/61274684-f3569380-a7b4-11e9-89b8-fbcf93bb71a8.gif)
+
+# RestorantRating 2 2 2
+add photo and save it
+
+![restV4](https://user-images.githubusercontent.com/30910230/61546176-b22edf80-aa51-11e9-9f1c-90ff123828c8.gif)
+
