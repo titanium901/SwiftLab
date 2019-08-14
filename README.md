@@ -34,3 +34,9 @@ add location
 
 ![restV6](https://user-images.githubusercontent.com/30910230/63039438-f33cd700-becb-11e9-9d67-e6530cc2ebab.gif)
 
+# RestorantRatingV7
+
+add photo animation + FireBase
+
+![restДЗ16](https://user-images.githubusercontent.com/30910230/63039833-d6ed6a00-becc-11e9-9142-aa5b2bc7f723.gif)
+
