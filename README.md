@@ -30,7 +30,7 @@ add login screen
 ![restV5](https://user-images.githubusercontent.com/30910230/61772478-16a7c100-adfb-11e9-8d59-6b8bac9e1e76.gif)
 
 # RestorantRatingV6
-add location
+add photo and location
 
 ![restV6](https://user-images.githubusercontent.com/30910230/63039438-f33cd700-becb-11e9-9d67-e6530cc2ebab.gif)
 
