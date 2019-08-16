@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>596162397900-v3nj9pc54onq7s56gpv29qnhlg2nr412.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.596162397900-v3nj9pc54onq7s56gpv29qnhlg2nr412</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAO4ysOoW5Ku8NtrwF0W2TmTXX8wSfTZss</string>
+	<key>GCM_SENDER_ID</key>
+	<string>596162397900</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.YuryPopov.RestorantRating</string>
+	<key>PROJECT_ID</key>
+	<string>restrating-37ffa</string>
+	<key>STORAGE_BUCKET</key>
+	<string>restrating-37ffa.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:596162397900:ios:2f13b108f91ab330</string>
+	<key>DATABASE_URL</key>
+	<string>https://restrating-37ffa.firebaseio.com</string>
+</dict>
+</plist>
