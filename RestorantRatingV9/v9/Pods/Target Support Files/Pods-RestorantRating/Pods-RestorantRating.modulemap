@@ -1,0 +1,6 @@
+framework module Pods_RestorantRating {
+  umbrella header "Pods-RestorantRating-umbrella.h"
+
+  export *
+  module * { export * }
+}
